@@ -2,7 +2,7 @@
 /* BODY */
 
 body {
-    font-family: 'acumin-pro', Helvetica, arial, sans-serif;
+    font-family: $body-fontfamily;
     font-size: 100%;
     line-height: 1.4;
     color: $color-text-body;

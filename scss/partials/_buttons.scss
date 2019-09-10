@@ -10,10 +10,14 @@ button,
     display: inline-block;
     margin: .5em;
     border-radius: 2em;
+    cursor: pointer;
 
 &:hover {
     background-color: $color-links-dark;
     color: #fff;
 }
 
+&.alt {
+    color: $color-links-dark;
+    background-color: #fff; 
 }
