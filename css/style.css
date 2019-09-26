@@ -149,6 +149,55 @@ body {
         width: 23%; } }
 
 .row.demo .column {
-  background: rgba(0, 47, 255, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 1em;
   text-align: center; }
+
+/* site header and footer */
+.site-header, .site-footer {
+  background-color: #261075;
+  padding: 1em;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .site-header h1, .site-footer h1 {
+    font-family: "acumin-pro", Helvetica, arial, sans-serif;
+    font-size: 1.5em;
+    margin: .5em, 0 0 0;
+    /* to adjust baseline with nav text */ }
+  .site-header a, .site-footer a {
+    color: #fff;
+    text-decoration: none; }
+
+/* site footer */
+.site-footer {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 6em; }
+
+/* site navigation */
+.site-nav ul {
+  margin: 0;
+  padding: o;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.site-nav a {
+  display: block;
+  padding: 1em; }
+
+/* Hero Sections */
+.hero {
+  background-color: rgba(172, 104, 2, 0.2);
+  padding: 6em 1em;
+  text-align: center; }
+  .hero p {
+    margin-left: auto;
+    margin-right: auto; }
